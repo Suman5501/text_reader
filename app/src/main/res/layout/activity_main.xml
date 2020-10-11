@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+   <ImageView
+       android:id="@+id/imageView"
+       android:layout_width="match_parent"
+       android:layout_height="270dp"
+       android:layout_margin="30dp"
+       android:background="#a3becc">
+
+   </ImageView>
+   <TextView
+     android:id="@+id/detectText"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_margin="10dp"
+       android:layout_below="@id/imageView"
+       android:text="Display Detected text from Image : "
+
+       android:textSize="25sp"
+       android:padding="5dp"
+       android:background="#8BC34A"
+       android:maxLines="8"
+       android:gravity="center_horizontal" />
+   <Button
+       android:id="@+id/cameraBtn"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+
+       android:layout_margin="10dp"
+       android:layout_below="@id/detectText"
+       android:text="Camera"
+       android:textSize="18sp"
+       android:padding="3dp"
+       android:background="#a92323"
+       android:textColor="#FFFFFF"
+  />
+
+   <Button
+       android:id="@+id/detectBtn"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_margin="10dp"
+       android:layout_below="@id/cameraBtn"
+       android:layout_centerHorizontal="true"
+       android:padding="3dp"
+       android:textSize="18sp"
+       android:background="#009688"
+       android:text="Detect text"
+       android:textColor="#FFFFFF" />
+
+</LinearLayout>

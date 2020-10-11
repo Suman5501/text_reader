@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "234649557546",
+    "firebase_url": "https://text-reader-8fb46.firebaseio.com",
+    "project_id": "text-reader-8fb46",
+    "storage_bucket": "text-reader-8fb46.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:234649557546:android:893a02d50a52a32c4b8153",
+        "android_client_info": {
+          "package_name": "com.example.textreader"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "234649557546-iqi5cmbgvdl3me95a5bqv98nk1hkh1js.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChgHrftpRyqLGd1FcZ-nFuPNRcLU0dmP4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "234649557546-iqi5cmbgvdl3me95a5bqv98nk1hkh1js.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
